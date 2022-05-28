@@ -4,10 +4,11 @@
 
 <head>
 	<meta charset="utf-8">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sprint Challenge - Home</title>
-
+	<link rel="stylesheet" href="css/index.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
 </head>
 
@@ -15,39 +16,42 @@
 	<div>
 		<!-- header -->
 		<header>
-			<div>
-				BLOOMTECH BAR AND GRILL
-
-				<!-- nav -->
-				Menu
-				Reservations
-				Special Offers
-				Contact
-			</div>
+			<section>
+				<div id="top">
+					<h1><a href="index.html">BLOOMTECH BAR AND GRILL</a></h1>
+				</div>
+				<nav>
+					<div class="links">
+						<a href="menu.html">Menu</a>
+						<a href="">Reservations</a>	
+						<a href="">Special Offers</a>	
+						<a href="">Contact</a>	
+					</div>
+					<div class="social">
+						<a href="http://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+						<a href="http://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+						<a href="http://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+					</div>
+					
+				</nav>
+			</section>
 		</header>
 
 		<!-- gallery section -->
 		<section class="gallery">
 			<div>
 				<h2>OUR FOOD</h2>
-
-				img/food-avocadotoast.jpg
-
-				img/food-burger.jpg
-
-				img/food-poutine.jpg
-
-				img/food-ribs.jpg
-
-				img/food-sandwich.jpg
-
-				img/food-sausage.jpg
-
-				img/food-steak.jpg
-
-				img/food-tacos.jpg
-
-				img/food-wings.jpg
+				<div class = "food-container">
+					<img src="img/food-avocadotoast.jpg" alt="food-avocadotoast">
+					<img src="img/food-burger.jpg" alt="food-burger">
+					<img src="img/food-poutine.jpg" alt="food-poutine">					
+					<img src="img/food-ribs.jpg" alt="food-ribs">					
+					<img src="img/food-sandwich.jpg" alt="food-sandwich">					
+					<img src="img/food-sausage.jpg" alt="food-sausage">					
+					<img src="img/food-steak.jpg" alt="food-steak">					
+					<img src="img/food-tacos.jpg" alt="food-tacos">
+					<img src="img/food-wings.jpg" alt="food-wings">	
+				</div>				
 			</div>
 		</section>
 
@@ -123,17 +127,27 @@
 		<div class="spacer-sm"></div>
 
 		<!-- footer -->
-		<footer>
+		<footer>			
 			<!-- email signup -->
-			Join our mailing list!
-			Sign Up
 			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
+			<nav>
+				<div class="mailing">
+					<p>Join our mailing list!</p>
+					<div class="signup">
+					<input type="text" placeholder="Email Address"><button>Sign Up</button>
+					</div>
+				</div>
+				<div class="bottom-links">
+					<a href="menu.html">Menu</a>
+					<a href="">Reservations</a>	
+					<a href="">Special Offers</a>	
+					<a href="">Contact</a>
+				</div>
+			</nav>
+			<div class="copyright">		
 			<!-- copyright -->
 			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+			</div>
 		</footer>
 	</div>
 </body>
